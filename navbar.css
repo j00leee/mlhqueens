@@ -2,7 +2,7 @@ body {margin:0;}
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #000000;
 }
 
 .topnav a {
@@ -26,7 +26,7 @@ body {margin:0;}
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #000000;
     overflow: hidden;
 }
 
