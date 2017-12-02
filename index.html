@@ -1,33 +1,52 @@
 <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+  <style>
+  .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
-<html>
-	<head>
-	<link href="navbar.css" rel="stylesheet" media="screen">
-		<style>
+.items {
+  font-size: 20vmin;
+  height: 30vh;
+}
 
-		</style>
-	</head>
+a{
+  font-family: arial;
+  text-decoration: none;
+  color: white;
+  padding: 2vh 2vw;
+  background-color: red;
+  transition: padding 0.2s;
+}
 
-	<body>
-		<title></title>
-			<div class="topnav">
-			  <a class="active" href="index.html">Home</a>
-			  <a href="users.html">Users</a>
-			  <a href="recipients.html">Recipients</a>
-			
-			</div>
+a:hover{
+ padding: 3vh 5vw;
+}
+  </style>
+  
+  
+  
+  
+</head>
 
+<body>
 
-		<center>
-		<h1>Homeless In Need</h1>
-		</center>	
-
-
-	
-
-	</body>
-
+<div class="menu">
+  <div class="items">
+    <a href="users.html">Have</a>
+  </div>
+  <div class="items">
+    <a href="recipients.html">Need</a>
+    </div>
+</div>
+  
+  
+</body>
 </html>
-
-
-
