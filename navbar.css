@@ -20,9 +20,12 @@ body {margin:0;}
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #83e9ec;
   color: white;
 }
+
+
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -48,6 +51,6 @@ body {margin:0;}
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #83e9ec;
     color: white;
 }
